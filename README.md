@@ -1,2 +1,2 @@
 # UPocket
-Projeto de TIS I de Controle Financeiro
+Projeto TIS I - Controle Financeiro
