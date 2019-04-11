@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<!--Esta página tem como função cadastrar o usuário-->
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,23 +13,33 @@
 <body>
     <main>
         <div class="fundo">
-            <div>
+        
+        </div>
+            <div class="caixa_cadastro">
                 <img src="" alt="Upocket logo">
                 <h3>Criar conta Upocket</h3>
-                <div class="nome">
-                    Nome e sobrenome:
+                <form>
+                    <label>Nome:</label>
                     <div class="input_name">
                         <input type="text" name="name">
                     </div>
-                </div>
-                <div class="password">
-                    Senha:
-                    <div class="input_password">
-                        <input type="password">
-                        Confirme a Senha
-                        <input class="confirm_password"></div>
+                </form>
+            </div>
+            <div class="email">
+                <form>
+                    <label>E-mail</label>
+                    <input type="email" name="email">
+                </form>
+            </div>
+            <div class="password">
+                <form>
+                    <label>Senha:</label>
+                    <input type="password">
+                    <label>Confirme a Senha:</label>
+                    <input type="password">
+                </form>
+                <div id="confirm">
                     <input type="submit" value="Próximo">
-                    <div id="confirm"></div>
                 </div>
             </div>
     </main>
